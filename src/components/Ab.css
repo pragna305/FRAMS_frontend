@@ -1,0 +1,29 @@
+#ab{
+  background-image: url('Ab.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #c8e8e9;
+}
+button{
+  display: block;
+  margin: auto;
+}
+.card-title{
+  color: black;
+}
+.card-text{
+  color: black;
+}
+.card{
+  width: 18rem;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    display: contents;
+    justify-content: space-around;
+}
+.text{
+  color: black;
+}

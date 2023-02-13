@@ -1,0 +1,98 @@
+#postcss{
+    background-image: url('https://images.pexels.com/photos/3653849/pexels-photo-3653849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    align-items: center;
+    /* background-size: 4 0%; */
+    background-color: #f1ebbc;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: Border-Box;
+}
+
+
+h1{
+    color: rgb(75, 148, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+#sec{
+    min-height: 500%;
+    width: 100%;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: right;
+}
+.text{
+    text-align: center;
+}
+.Container {
+    height: 470px;
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000020;
+    border-radius: 8px;
+    background-Color: rgb(219, 127, 127);
+    float: right;
+}
+.step {
+    display: None;
+}
+.step.Active {
+    display: Block;
+}
+.form-Group {
+    width: 100%;
+    margin-top: 20px;
+}
+.form-Group input {
+    width: 100%;
+    border: 1.5px Solid Rgba(128, 128, 128, 0.418);
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+button.Next-btn,
+button.Previous-btn,
+button.Submit-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: None;
+    outline: None;
+    background-color: rgb(79, 137, 187);
+    font-family: "Montserrat";
+    font-size: 18px;
+    cursor: Pointer;
+}
+/* button.Previous-btn {
+    Float: Left;
+} */
+/* button.Submit-btn {
+    Background-Color: Aquamarine;
+} */
+
+
+button{
+    background: #b3d82b ;
+    color: rgb(16, 16, 16);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 10px;
+    
+}
+/* #btn{
+    background: #f9004d ;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+      position: absolute;
+    bottom: 0;
+} */
